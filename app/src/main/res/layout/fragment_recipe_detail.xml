@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.akbar.dev.bakingapp.ui.fragment.RecipeDetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recipe_ingredient_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="#ccc"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_margin="15dp"
+            android:id="@+id/recipe_step_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"     />
+
+    </LinearLayout>
+
+</FrameLayout>
